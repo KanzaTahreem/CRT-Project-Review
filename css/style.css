@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 1.5;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    height: 100px;
+    padding: 1.8rem;
+
+}
+
+.nav-item > a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 1.8rem;
+}
+
+#welcome-section {
+    background-color: rgba(0, 0, 0, 0.836);
+    padding: 300px;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#welcome-section > h1 {
+    font-size: 3.5rem;
+    padding-bottom: 30px;
+}
+
+#welcome-section > p {
+    font-size: 1.9rem;
+    font-style: italic;
+    color: brown;
+}
+
+#projects > section > h1 {
+    padding-top: 130px;
+    padding-bottom: 80px;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    
+}
+span {
+    border-bottom: 3px solid white;
+}
+
+#projects {
+    background-color: #45567d;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.project-tile {
+    display:flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  
+}
+.project-tile > div {
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #303841;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.project-tile > div > a  {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+img {
+    width: 450px;
+    height:420px;
+    
+}
+.project-tile > div > p {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.project-tile > div > p:hover {
+    font-size: 2rem;
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+#button {
+    text-align: center;
+    padding: 40px;
+}
+   
+button {
+   padding: 10px 30px;
+   border: none;
+   border-radius: 3px;
+   font-size: 1.6rem;
+   background-color: #303841;
+   color: white;
+}
+
+button > a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    padding: 20px 40px;
+    background-color: yellowgreen;
+}
+
+button > a:hover {
+    color: black;
+    font-weight: 600;
+}
+
+.contact-secction{
+    background-color: #303841;
+    height: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact-secction > h1,p{
+    color:white;
+    text-align: center;
+}
+.contact-secction > p{
+    font-style: italic;
+
+}
+.contact-links{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact-links > a{
+    color: white;
+    padding: 0 10px;
+    text-transform: lowercase;
+}
+.footer{
+    background-color: #303841;
+    border-top: 3px solid brown;
+    padding: 30px 0;
+}
